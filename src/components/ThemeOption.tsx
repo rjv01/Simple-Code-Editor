@@ -26,6 +26,7 @@ function ThemeOption() {
                         <option
                             key={t}
                             value={t}
+                            className="capitalize"
                         >{t}</option>
                     ))
                 }

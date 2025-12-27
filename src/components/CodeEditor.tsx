@@ -22,7 +22,7 @@ function CodeEditor() {
         setCodeText(CODE_SNIPPETS[lang]);
     }
     return (
-        <div className="border-2 p-4 m-4">
+        <div className="border-2 p-4 m-4 rounded-2xl">
         <div className="flex items-center">
         <LanguageSelector editorLanguage={editorLanguage} editLangSelect={editLangSelect}/>
         <ThemeOption />

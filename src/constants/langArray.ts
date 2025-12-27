@@ -14,80 +14,80 @@ export const LANGUAGE_VERSIONS = {
 export type Language = keyof typeof LANGUAGE_VERSIONS;
 
 export const CODE_SNIPPETS: Record<Language, string>  = {
-  cpp: `// C++ Hello World
+  cpp: `// C++ Started Code
   #include <bits/stdc++.h>
   using namespace std;
   
   int main() {
-  cout << "Hello, World!" << endl;
+  cout << "Hello There Raj here nice to meet you" << endl;
   return 0;
   }
   `,
-  javascript: `// JavaScript Hello World
+  javascript: `// JavaScript Started Code
 function main() {
-  console.log("Hello, World!");
+  console.log("Hello There Raj here nice to meet you");
 }
 
 main();
 `,
 
-  typescript: `// TypeScript Hello World
+  typescript: `// TypeScript Started Code
 function main(): void {
-  console.log("Hello, World!");
+  console.log("Hello There Raj here nice to meet you");
 }
 
 main();
 `,
 
-  python: `# Python Hello World
+  python: `# Python Started Code
 def main():
-    print("Hello, World!")
+    print("Hello There Raj here nice to meet you")
 
 main()
 `,
 
-  java: `// Java Hello World
+  java: `// Java Started Code
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Hello There Raj here nice to meet you");
     }
 }
 `,
 
-  csharp: `// C# Hello World
+  csharp: `// C# Started Code
 using System;
 
 class Program {
     static void Main() {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello There Raj here nice to meet you");
     }
 }
 `,
 
   php: `<?php
-// PHP Hello World
-echo "Hello, World!";
+// PHP Started Code
+echo "Hello There Raj here nice to meet you";
 ?>
 `,
 
 
-  go: `// Go Hello World
+  go: `// Go Started Code
 package main
 
 import "fmt"
 
 func main() {
-    fmt.Println("Hello, World!")
+    fmt.Println("Hello There Raj here nice to meet you")
 }
 `,
 
-  ruby: `# Ruby Hello World
-puts "Hello, World!"
+  ruby: `# Ruby Started Code
+puts "Hello There Raj here nice to meet you"
 `,
 
-  rust: `// Rust Hello World
+  rust: `// Rust Started Code
 fn main() {
-    println!("Hello, World!");
+    println!("Hello There Raj here nice to meet you");
 }
 `,
 };
